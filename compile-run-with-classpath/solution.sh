@@ -8,4 +8,4 @@
 # Second argument is blank: true
 # Third argument is blank: false
 javac -classpath commons-lang3-3.9.jar StringIsBlank.java
-java -classpath commons-lang3-3.9.jar:. StringIsBlank "" " " "*"
+java -classpath commons-lang3-3.9.jar:. StringIsBlank "" '' '*'
