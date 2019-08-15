@@ -8,4 +8,4 @@
 # System property BBB: '
 export AAA='$A;'
 javac ReadEnvironmentVariableAndSystemProperty.java
-java -Dfile.encoding=UTF-8  -DBBB="'" ReadEnvironmentVariableAndSystemProperty
+java -Dfile.encoding=UTF-8 -DBBB="'" ReadEnvironmentVariableAndSystemProperty
