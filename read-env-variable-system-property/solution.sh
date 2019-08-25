@@ -9,7 +9,7 @@
 
 javac ReadEnvironmentVariableAndSystemProperty.java
 
-export AAA='$A'
+export AAA='$A;'
 
 java -DBBB=\' ReadEnvironmentVariableAndSystemProperty
 
