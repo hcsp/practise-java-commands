@@ -8,4 +8,4 @@
 # Second argument is blank: true
 # Third argument is blank: false
 javac -cp commens-lang3-3.9.jar StringIsBlank.java
-java -cp commens-lang3-3.9.jar:. StringIsBlank '' ' ' "'*'"
+java -cp commens-lang3-3.9.jar:. StringIsBlank '' ' ' '*'
