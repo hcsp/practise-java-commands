@@ -7,3 +7,8 @@
 # First argument is blank: true
 # Second argument is blank: true
 # Third argument is blank: false
+#PATH=$PATH:"/mnt/c/Program Files/Java/jdk1.8.0_221/bin"
+#export PATH
+# echo $PATH
+javac -cp 'commons-lang3-3.9.jar' StringIsBlank.java
+java -cp 'commons-lang3-3.9.jar;.' StringIsBlank "" " " "*"
