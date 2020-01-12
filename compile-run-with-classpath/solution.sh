@@ -8,4 +8,4 @@
 # Second argument is blank: true
 # Third argument is blank: false
 javac -Djava.ext.dirs=. StringIsBlank.java
-java -Djava.ext.dirs=. StringIsBlank '' ' ' '*'
+java -Djava.ext.dirs=. StringIsBlank '' " " " *"
