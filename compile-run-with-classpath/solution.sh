@@ -8,5 +8,5 @@
 # Second argument is blank: true
 # Third argument is blank: false
 
-javac -cp commons-lang-3-3.9.jar StringIsBlank.java
+javac -cp commons-lang3-3.9.jar:. StringIsBlank.java
  java -cp commons-lang3-3.9.jar:. StringIsBlank "" " " "*"
