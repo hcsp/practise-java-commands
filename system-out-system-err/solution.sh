@@ -5,3 +5,4 @@
 # 使其标准输出和标准错误都重定向到当前目录下一个名为output.txt的文件中
 javac PrintSystemOutSystemErr.java
 java PrintSystemOutSystemErr >output.exe >2 &1
+
