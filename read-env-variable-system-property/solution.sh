@@ -6,3 +6,5 @@
 # 使得该java命令输出：
 # Environment variable AAA: $A;
 # System property BBB: '
+javac PrintSystemOutSystemErr.java
+java PrintSystemOutSystemErr > output.txt 2>&1
