@@ -6,3 +6,5 @@
 # 使得该java命令输出：
 # Environment variable AAA: $A;
 # System property BBB: '
+javac ReadEnvironmentVariableAndSystemProperty.java
+java -DBBB="'" ReadEnvironmentVariableAndSystemProperty
