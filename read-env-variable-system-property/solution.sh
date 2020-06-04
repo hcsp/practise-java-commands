@@ -8,5 +8,5 @@
 # System property BBB: '
 
 export AAA='$A;'
-javac ReadEnvironmentVariableAndSystemProperty
-java -DBBB="'" ReadEnvironmentVariableAndSystemProperty
+javac ReadEnvironmentVariableAndSystemProperty.java
+java -cp . -DBBB="'" ReadEnvironmentVariableAndSystemProperty
