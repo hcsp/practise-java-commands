@@ -6,4 +6,4 @@
 # 解答1、编译命令
 javac PrintSystemOutSystemErr.java
 # 解答2、运行命令,并将标准输出错误输出到output文件中
-java PrintSystemOutSystemErr > output.txt 2>$1
+java PrintSystemOutSystemErr > output.txt 2>&1
