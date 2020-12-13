@@ -7,6 +7,6 @@
 # Environment variable AAA: $A;
 # System property BBB: '
 # shellcheck disable=SC1068
-export AAA=\$A;
+export AAA='$A;'
 javac ReadEnvironmentVariableAndSystemProperty.java
 java -DBBB=\' ReadEnvironmentVariableAndSystemProperty
