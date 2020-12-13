@@ -9,7 +9,4 @@
 # Third argument is blank: false
 # shellcheck disable=SC1073
 arg='*'
-
 java -classpath ./commons-lang3-3.9.jar:. StringIsBlank "" \  arg
-
-
