@@ -6,3 +6,8 @@
 # 使得该java命令输出：
 # Environment variable AAA: $A;
 # System property BBB: '
+export AAA='$A;'
+demo="C:/Program Files/Java/jdk1.8.0_221/bin/"
+echo ${demo}javac
+${demo}javac ReadEnvironmentVariableAndSystemProperty.java
+${demo}java -DBBB=\' ReadEnvironmentVariableAndSystemProperty
